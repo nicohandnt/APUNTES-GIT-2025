@@ -217,3 +217,8 @@ Para pull no hay forma abreviada con -u
 ##### COMANDO PARA BAJAR TODAS LAS RAMAS A MI REPOSITORIO LOCAL
 
 ``git pull --all`
+
+### Pull request
+
+Petición de cambios que se envía al repositorio local
+Para hacer una buena pull request debemos enfocar nuestro código en una sola cosa y explicarla
