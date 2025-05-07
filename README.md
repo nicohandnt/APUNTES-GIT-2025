@@ -231,3 +231,15 @@ Para hacer una buena pull request debemos enfocar nuestro código en una sola co
 - Proporciona una retroalimentacion positiva.
 - Se concreto y claro
 - Comprende el contexto adecuado para arreglar o parchear codigo para que cumpla su cometido
+
+### Git Flow
+
+**Main .-** contiene el codigo de producción
+
+**Develop.-** código de preproducción que debe ser probado y evaluado
+
+**Feature.-** características nuevas para el proyecto
+
+**Release.-** cambios de ultimo momento
+
+**Hotfix.-** parches o arreglar bugs pequeños
