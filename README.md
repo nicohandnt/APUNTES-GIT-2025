@@ -137,4 +137,11 @@ Para borrar una rama sin importar si esta fusionada o no
 
 Se produce conflictos cuando git no es capaz de determinar que cambio es el que tiene que quedarse cuando fusionen las ramas, por lo que el usuario tiene que resolver
 
-Para arreglarlo podemos elegir los cambios de que rama mantenemos o también personalizarlo para mantener los cambios de ambos pero en distintas líneas 
+Para arreglarlo podemos elegir los cambios de que rama mantenemos o también personalizarlo para mantener los cambios de ambos pero en distintas líneas.
+
+## CLASE 3
+
+### ¿Que es Github?
+Es un servicio de alojamiento en la nube de código fuente basado en el control de versiones de git para manejar repositorios.
+
+Todo esto nace por que el mantenimiento que un servidor de este tipo requiere puede ser muy costoso y, en raras ocasiones, puede valer la pena.
