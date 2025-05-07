@@ -132,3 +132,9 @@ Se eliminan ramas para mantener el lugar de trabajo más organizado
 Para borrar una rama sin importar si esta fusionada o no
 
 ``git Branch -D <mi-primera-rama>``
+
+### Conflictos
+
+Se produce conflictos cuando git no es capaz de determinar que cambio es el que tiene que quedarse cuando fusionen las ramas, por lo que el usuario tiene que resolver
+
+Para arreglarlo podemos elegir los cambios de que rama mantenemos o también personalizarlo para mantener los cambios de ambos pero en distintas líneas 
