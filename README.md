@@ -194,3 +194,7 @@ Se clonan todos los archivos y ramas del repositorio remoto con:
 #### GIT PUSH
 
 Llevar modificaciones de mi repositorio local a uno remoto
+
+#### GIT PULL
+
+Traer modificaciones del repositorio remoto a mi repositorio local
