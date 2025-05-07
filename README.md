@@ -265,3 +265,12 @@ rápidas sólo cuando sea necesario.
 ¿Qué puede salir mal? Pues menos de lo que esperas si cuentas con un buen
 sistema
 de Integración y Despliegue Continuo (CI/CD).
+
+### SHIP/SHOW/ASK
+
+**Ship.-** se fusiona en la rama principal sin revisión previa
+
+**Show.-** abre una petición de cambios para ser revisados y cuando son aceptados se fusionan inmediatamente
+
+**Ask.-** abre una pull request para discutir cambios antes de fusionarlos
+
