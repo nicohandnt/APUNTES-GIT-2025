@@ -274,3 +274,23 @@ de Integración y Despliegue Continuo (CI/CD).
 
 **Ask.-** abre una pull request para discutir cambios antes de fusionarlos
 
+**Reglas de SHIP/SHOW/ASK**
+- Tenemos un buen sistema de CI/CD, fiable y rápido, que hace que la rama
+principal siempre sea desplegable y que evite que lleguen errores no
+deseados a producción.
+
+- Confiamos en el equipo y existen buenas prácticas de desarrollo. Pair
+programming, mob programming, seniority... y, sobretodo, existe
+responsabilidad. La persona se responsabiliza de decidir la categoría de su
+cambio. Un gran poder, poder hacer merge de tus propias Pull Request,
+conlleva una gran responsabilidad (no romper producción).
+- Las revisiones de código no son requerimientos para que las PRs sean
+fusionadas.
+
+- Las ramas son lo más pequeñas posibles, tienen un tiempo de vida corto y
+siempre salen directamente desde la rama principal.
+
+- El equipo ha sabido lidiar con el ego individual, las personas confían en el
+resto del equipo y las pruebas automáticas pasan. El equipo entiende que la
+rama principal puede contener código sin terminar detrás de Feature Flags u
+otros mecanismos similares.
