@@ -16,3 +16,12 @@ O iniciar en una carpeta ya existente , simplemente ir raíz del proyecto y pone
 `git init`
 
 Con esto ya tendriamos una rama principal por defecto, suele llamarse master pero ya ha sido muy hablado el cambio de su nombre a main por el gusto de muchos usuarios, en un futuro podria llegar a ser ese nombre por defecto.
+
+### Ayuda en git
+Para resolver dudas de comandos de git, usamos:
+
+`` git init -h``
+
+si queremos información mas detallada podemos entrar a un articulo de git a través del navegador por medio de :
+
+``git init --help``
