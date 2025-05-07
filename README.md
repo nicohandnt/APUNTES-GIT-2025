@@ -86,3 +86,9 @@ para ver los commits como graficos utiilzamos
 se puede combinar en un solo comando
 
 ``git log –graph –oneline``
+
+## CLASE 2
+### ¿Que es una rama?
+Una rama es simplemente una versión de la colección de
+directorios y archivos del repositorio. Cada vez que se crea
+una nueva rama, se crea una copia de la colección de los archivos actuales
