@@ -149,3 +149,6 @@ Todo esto nace por que el mantenimiento que un servidor de este tipo requiere pu
 ### ¿Que son los repositorios remotos?
 Los repositorios remotos son repositorios que están hospedados en un servidor
 y que servirá de punto de sincronización entre diferentes repositorios locales.
+
+***ORIGIN.-***
+Este será el nombre de la rama remota, es predeterminado pero cuando trabajemos con mas ramas remotas podrán tener otros nombres
