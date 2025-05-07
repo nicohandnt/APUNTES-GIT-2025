@@ -226,3 +226,8 @@ Para hacer una buena pull request debemos enfocar nuestro código en una sola co
 ### ¿Como hacer una buena PR?
 - Enfocate en hacer tu codigo solo para una cosa, es mejor revisar y aceptar una PR que hace una cosa a otra que hace varias
 - Explica tu PR, usar imagenes o videos que enseñen de forma interactiva la funcion del codigo añadido
+
+### Revisar una PR
+- Proporciona una retroalimentacion positiva.
+- Se concreto y claro
+- Comprende el contexto adecuado para arreglar o parchear codigo para que cumpla su cometido
