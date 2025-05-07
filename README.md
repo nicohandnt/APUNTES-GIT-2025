@@ -151,4 +151,30 @@ Los repositorios remotos son repositorios que están hospedados en un servidor
 y que servirá de punto de sincronización entre diferentes repositorios locales.
 
 ***ORIGIN.-***
-Este será el nombre de la rama remota, es predeterminado pero cuando trabajemos con mas ramas remotas podrán tener otros nombres
+Este será el nombre de la rama remota, es predeterminado pero cuando trabajemos con mas ramas remotas podrán tener otros nombres.
+
+##### COMANDO PARA ENLAZAR REPOSITORIO LOCAL AL REMOTO
+
+``git remote add origin <url-de-repositorio-remoto>”``
+
+La url puede ser la https o ssh
+
+###### COMANDO PARA VER SI SE CONECTO EL REMOTO CON EL LOCAL 
+
+``git remote -v``
+
+##### COMANDO PARA SINCRONIZAR EL LOCAL CON EL REMOTO
+
+``git push origin main``
+
+
+##### COMANDO QUE NO SE DEBE HACER
+
+``git push -f origin main``
+
+Esto eliminaría archivos del repo remoto, muy peligroso si trabajamos en equipo
+
+##### COMANDO PARA CLONAR REPOSITORIO
+Se clonan todos los archivos y ramas del repositorio remoto con:
+
+``git clone <url-de-repositorio-remoto>``
