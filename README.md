@@ -178,3 +178,15 @@ Esto eliminaría archivos del repo remoto, muy peligroso si trabajamos en equipo
 Se clonan todos los archivos y ramas del repositorio remoto con:
 
 ``git clone <url-de-repositorio-remoto>``
+
+###### COMANDO PARA CREAR RAMA REMOTA
+
+``git push origin <nombre de-la-rama-creada>``
+
+###### COMANDO PARA ACTUALIZAR RAMAS
+
+``git fetch``
+
+##### COMANDO PARA ELIMINAR RAMAS DEL REPOSITORIO REMOTO EN MI REPOSITORIO LOCAL
+
+``git remote prune origin``
