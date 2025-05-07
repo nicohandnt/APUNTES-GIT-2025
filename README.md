@@ -25,3 +25,11 @@ Para resolver dudas de comandos de git, usamos:
 si queremos información mas detallada podemos entrar a un articulo de git a través del navegador por medio de :
 
 ``git init --help``
+
+### Estados de git
+Cualquier archivo dentro de un directorio con git debe pasar por 3 estados:
+
++ **Modified**
++ **Staged**
++ **Commited**
+------------------
