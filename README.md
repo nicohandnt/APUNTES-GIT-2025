@@ -91,4 +91,44 @@ se puede combinar en un solo comando
 ### ¿Que es una rama?
 Una rama es simplemente una versión de la colección de
 directorios y archivos del repositorio. Cada vez que se crea
-una nueva rama, se crea una copia de la colección de los archivos actuales
+una nueva rama, se crea una copia de la colección de los archivos actuales.
+
+##### COMANDO PARA CREAR UNA RAMA
+
+``git Branch <mi-primera-rama>
+``
+##### COMANDOS PARA CAMBIAR DE RAMA
+
+``git switch <mi-primera-rama>``
+
+``git checkout <mi-primera-rama>``
+
+para crear una rama y cambiar a ella con un solo comando se usa:
+
+``git switch -c <mi-primera-rama>``
+
+##### COMANDO PARA VER  LAS RAMAS
+
+Para ver las ramas locales
+
+``git branch``
+
+Pare ver todas las ramas, locales y remotas 
+
+``git Branch -a``
+
+##### COMANDO PARA FUSIONAR RAMAS
+
+Sirve para unir los cambios de una rama a la rama en la que nos situamos
+
+``git merge``
+
+##### COMANDO PARA ELIMINAR RAMAS
+
+Se eliminan ramas para mantener el lugar de trabajo más organizado
+
+``git Branch –d <mi-primera-rama>``
+
+Para borrar una rama sin importar si esta fusionada o no
+
+``git Branch -D <mi-primera-rama>``
