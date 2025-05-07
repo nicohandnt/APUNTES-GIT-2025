@@ -58,3 +58,7 @@ Después de crear el archivo, debemos marcarlo para prepararlo para su confirmac
 ``
 git add <nombre-del-archivo>
 ``
+
+**Commited**
+
+Este estado es para guardar los cambios de nuestro archivo, es decir es cuando nuestro archivo ya esta grabado en el repositorio local
