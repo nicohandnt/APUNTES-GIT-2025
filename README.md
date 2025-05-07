@@ -145,3 +145,7 @@ Para arreglarlo podemos elegir los cambios de que rama mantenemos o también per
 Es un servicio de alojamiento en la nube de código fuente basado en el control de versiones de git para manejar repositorios.
 
 Todo esto nace por que el mantenimiento que un servidor de este tipo requiere puede ser muy costoso y, en raras ocasiones, puede valer la pena.
+
+### ¿Que son los repositorios remotos?
+Los repositorios remotos son repositorios que están hospedados en un servidor
+y que servirá de punto de sincronización entre diferentes repositorios locales.
