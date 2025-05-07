@@ -243,3 +243,11 @@ Para hacer una buena pull request debemos enfocar nuestro código en una sola co
 **Release.-** cambios de ultimo momento
 
 **Hotfix.-** parches o arreglar bugs pequeños
+
+### Github Flow
+
+Es una estrategia creada por la propia GitHub y pensada especialmente para
+equipos y proyectos que hacen despliegues de forma regular. Se basa en la
+creación de Pull Requests que serán discutidas para que se integren en la rama
+principal que siempre está actualizada con los cambios más recientes y preparada
+para ser desplegada.
