@@ -38,3 +38,14 @@ Cualquier archivo dentro de un directorio con git debe pasar por 3 estados:
 Estado encargado de marcar todos los cambios que tiene un archivo sin confirmar.
 
 Al crear un archivo dentro del directorio de git ya esta en un estado modified, también lo estará cuando lo eliminemos 
+
+###### COMANDO PARA ELIMINAR ARCHIVO
+
+``git rm <nombre-del-archivo>``
+
+##### COMANDO PARA VER EL ESTADO DEL GIT
+
+``git status``
+
+##### COMANDO PARA RESTAURAR ARCHIVO
+``git restore <nombre-del-archivo>``
