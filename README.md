@@ -251,3 +251,17 @@ equipos y proyectos que hacen despliegues de forma regular. Se basa en la
 creación de Pull Requests que serán discutidas para que se integren en la rama
 principal que siempre está actualizada con los cambios más recientes y preparada
 para ser desplegada.
+
+### Trunk Base Development
+Es una estrategia que se basa en que el mayor tiempo de desarrollo se concentra
+en una sola rama llamada trunk (tronco) que normalmente corresponderá con
+main. Esto quiere decir que se evita la creación de ramas auxiliares y, sólo en
+algunos casos que se requieran, se crean con un tiempo de vida muy limitado
+(máximo un par de días).
+
+Así que esta estrategia la podríamos resumir en: haz commit a main y hazlo lo
+más frecuentemente posible con pequeños cambios. Y crea PRs pequeñas y
+rápidas sólo cuando sea necesario.
+¿Qué puede salir mal? Pues menos de lo que esperas si cuentas con un buen
+sistema
+de Integración y Despliegue Continuo (CI/CD).
