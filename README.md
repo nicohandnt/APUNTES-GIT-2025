@@ -190,3 +190,7 @@ Se clonan todos los archivos y ramas del repositorio remoto con:
 ##### COMANDO PARA ELIMINAR RAMAS DEL REPOSITORIO REMOTO EN MI REPOSITORIO LOCAL
 
 ``git remote prune origin``
+
+#### GIT PUSH
+
+Llevar modificaciones de mi repositorio local a uno remoto
