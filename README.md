@@ -49,3 +49,12 @@ Al crear un archivo dentro del directorio de git ya esta en un estado modified, 
 
 ##### COMANDO PARA RESTAURAR ARCHIVO
 ``git restore <nombre-del-archivo>``
+
+**Staged**
+
+Después de crear el archivo, debemos marcarlo para prepararlo para su confirmación en el repositorio 
+
+##### COMANDO PARA CONFIRMAR
+``
+git add <nombre-del-archivo>
+``
