@@ -1,5 +1,7 @@
 # ¿Que es git?
 
+[imagen inicial de git](./imagenes/git.jpg)
+
 Git es un sistema de control de versiones, gratuito y de código abierto, diseñado por Linus Torvalds, el creador de Linux.
 
 Git se convirtió en un sistema confiable a la hora de mantener versiones de aplicaciones con una gran base de código, así  se ha establecido como el sistema a de control de versiones mas usado en el mundo de la programación y el desarrollado software.
@@ -27,11 +29,16 @@ si queremos información mas detallada podemos entrar a un articulo de git a tra
 ``git init --help``
 
 ### Estados de git
+[estados de git](./imagenes/estados%20de%20git.png)
+
 Cualquier archivo dentro de un directorio con git debe pasar por 3 estados:
 
 + **Modified**
 + **Staged**
 + **Commited**
+
+[explicacion de estados](./imagenes/estados%20de%20git%20#2.png)
+
 ------------------
 **Modified**
 
@@ -88,6 +95,9 @@ se puede combinar en un solo comando
 ``git log –graph –oneline``
 
 ## CLASE 2
+
+[ramas](./imagenes/ramas.png)
+
 ### ¿Que es una rama?
 Una rama es simplemente una versión de la colección de
 directorios y archivos del repositorio. Cada vez que se crea
@@ -139,12 +149,16 @@ Se produce conflictos cuando git no es capaz de determinar que cambio es el que 
 
 Para arreglarlo podemos elegir los cambios de que rama mantenemos o también personalizarlo para mantener los cambios de ambos pero en distintas líneas.
 
+[conflictos](./imagenes/conflictos.jpg)
+
 ## CLASE 3
 
 ### ¿Que es Github?
 Es un servicio de alojamiento en la nube de código fuente basado en el control de versiones de git para manejar repositorios.
 
 Todo esto nace por que el mantenimiento que un servidor de este tipo requiere puede ser muy costoso y, en raras ocasiones, puede valer la pena.
+
+[githubt](./imagenes/github.jpg)
 
 ### ¿Que son los repositorios remotos?
 Los repositorios remotos son repositorios que están hospedados en un servidor
@@ -192,10 +206,12 @@ Se clonan todos los archivos y ramas del repositorio remoto con:
 ``git remote prune origin``
 
 #### GIT PUSH
+[push](./imagenes/push.png)
 
 Llevar modificaciones de mi repositorio local a uno remoto
 
 #### GIT PULL
+[pull](./imagenes/pull.png)
 
 Traer modificaciones del repositorio remoto a mi repositorio local
 
@@ -222,6 +238,7 @@ Para pull no hay forma abreviada con -u
 
 Petición de cambios que se envía al repositorio local
 Para hacer una buena pull request debemos enfocar nuestro código en una sola cosa y explicarla
+[PR](./imagenes/pull%20request.png)
 
 ### ¿Como hacer una buena PR?
 - Enfocate en hacer tu codigo solo para una cosa, es mejor revisar y aceptar una PR que hace una cosa a otra que hace varias
@@ -234,6 +251,7 @@ Para hacer una buena pull request debemos enfocar nuestro código en una sola co
 
 ## CLASE 4
 ### Git Flow
+[gitflow](./imagenes/git%20flow.png)
 
 **Main .-** contiene el codigo de producción
 
@@ -246,6 +264,7 @@ Para hacer una buena pull request debemos enfocar nuestro código en una sola co
 **Hotfix.-** parches o arreglar bugs pequeños
 
 ### Github Flow
+[githubflow](./imagenes/github%20flow.png)
 
 Es una estrategia creada por la propia GitHub y pensada especialmente para
 equipos y proyectos que hacen despliegues de forma regular. Se basa en la
@@ -254,6 +273,7 @@ principal que siempre está actualizada con los cambios más recientes y prepara
 para ser desplegada.
 
 ### Trunk Base Development
+[TBD](./imagenes/trunk%20base%20development.gif)
 Es una estrategia que se basa en que el mayor tiempo de desarrollo se concentra
 en una sola rama llamada trunk (tronco) que normalmente corresponderá con
 main. Esto quiere decir que se evita la creación de ramas auxiliares y, sólo en
@@ -268,6 +288,7 @@ sistema
 de Integración y Despliegue Continuo (CI/CD).
 
 ### SHIP/SHOW/ASK
+[ship/show/ask](./imagenes/ship-show-ask.png)
 
 **Ship.-** se fusiona en la rama principal sin revisión previa
 
