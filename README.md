@@ -155,7 +155,7 @@ Es un servicio de alojamiento en la nube de código fuente basado en el control 
 
 Todo esto nace por que el mantenimiento que un servidor de este tipo requiere puede ser muy costoso y, en raras ocasiones, puede valer la pena.
 
-![githubt](./imagenes/github.jpg)
+![git hub](./imagenes/github.jpg)
 
 ### ¿Que son los repositorios remotos?
 Los repositorios remotos son repositorios que están hospedados en un servidor
@@ -203,7 +203,7 @@ Se clonan todos los archivos y ramas del repositorio remoto con:
 ``git remote prune origin``
 
 #### GIT PUSH
-![push](./imagenes/push.png)
+![alt text](image-6.png)
 
 Llevar modificaciones de mi repositorio local a uno remoto
 
@@ -235,7 +235,7 @@ Para pull no hay forma abreviada con -u
 
 Petición de cambios que se envía al repositorio local
 Para hacer una buena pull request debemos enfocar nuestro código en una sola cosa y explicarla
-![PR](./imagenes/pull%20request.png)
+![pull request](./imagenes/pull%20request.png)
 
 ### ¿Como hacer una buena PR?
 - Enfocate en hacer tu codigo solo para una cosa, es mejor revisar y aceptar una PR que hace una cosa a otra que hace varias
@@ -248,7 +248,7 @@ Para hacer una buena pull request debemos enfocar nuestro código en una sola co
 
 ## CLASE 4
 ### Git Flow
-![gitflow](./imagenes/git%20flow.png)
+![alt text](image-4.png)
 
 **Main .-** contiene el codigo de producción
 
@@ -261,7 +261,7 @@ Para hacer una buena pull request debemos enfocar nuestro código en una sola co
 **Hotfix.-** parches o arreglar bugs pequeños
 
 ### Github Flow
-![githubflow](./imagenes/github%20flow.png)
+![alt text](image-3.png)
 
 Es una estrategia creada por la propia GitHub y pensada especialmente para
 equipos y proyectos que hacen despliegues de forma regular. Se basa en la
@@ -270,7 +270,7 @@ principal que siempre está actualizada con los cambios más recientes y prepara
 para ser desplegada.
 
 ### Trunk Base Development
-![TBD](./imagenes/trunk%20base%20development.gif)
+![alt text](image-5.png)
 Es una estrategia que se basa en que el mayor tiempo de desarrollo se concentra
 en una sola rama llamada trunk (tronco) que normalmente corresponderá con
 main. Esto quiere decir que se evita la creación de ramas auxiliares y, sólo en
