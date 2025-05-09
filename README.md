@@ -414,3 +414,23 @@ Este comando aplica los cambios guardados en el stash al directorio de trabajo y
 Aplicar cambios de commits en especifico
 
 ``git Cherry-pick <SHA>``
+##### COMANDO PARA HALLAR COMMIT QUE PRODUJO ERROR
+
+``git bisect``
+
+Este comando indica que empezaremos a buscar el commit que introdujo el error
+
+``git bisect start``
+
+Este comando marca el commit actual como “malo”
+
+``git bisect bad``
+
+Este comando marca el commit actual como “bueno”
+
+``git bisect good``
+
+Este comando se utiliza para salir del proceso de bisectado.
+Restablece el estado del repositorio al estado original antes de comenzar el bisectado
+
+``git bisect reset``
