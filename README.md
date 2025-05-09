@@ -326,3 +326,12 @@ También es bueno escribir un buen nombre de rama, preferible si el nombre de la
 - **style:** para cambios de formato, tabulaciones, espacios o puntos y coma, etc; no afectan al usuario.
 - **test:** para tesis o refactorizacion de uno ya existente.
 
+## CLASE 6
+
+**DESHACER CAMBIOS**
+
+Podemos deshacer cambios en caso de :
+- Dejo de funcionar el proyecto
+- Para recuperar código que eliminamos
+- Recuperar archivos eliminados
+
