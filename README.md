@@ -334,4 +334,15 @@ Podemos deshacer cambios en caso de :
 - Dejo de funcionar el proyecto
 - Para recuperar código que eliminamos
 - Recuperar archivos eliminados
+----------------------
+**GIT RESET- comando destructivo**
+
+Este comando descarta los cambios, ósea regresa a lcommit y elimina los cambios
+
+``git reset --hard <ID-del-commit>``
+
+Y este otro comando regresa al commit pero no elimina los cambios
+
+``git reset --soft <ID-del-commit>``
+
 
