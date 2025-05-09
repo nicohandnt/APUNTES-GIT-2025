@@ -326,3 +326,27 @@ También es bueno escribir un buen nombre de rama, preferible si el nombre de la
 - **style:** para cambios de formato, tabulaciones, espacios o puntos y coma, etc; no afectan al usuario.
 - **test:** para tesis o refactorizacion de uno ya existente.
 
+## CLASE 6
+
+**DESHACER CAMBIOS**
+
+Podemos deshacer cambios en caso de :
+- Dejo de funcionar el proyecto
+- Para recuperar código que eliminamos
+- Recuperar archivos eliminados
+----------------------
+**GIT RESET- comando destructivo**
+
+Este comando descarta los cambios, ósea regresa a lcommit y elimina los cambios
+
+``git reset --hard <ID-del-commit>``
+
+Y este otro comando regresa al commit pero no elimina los cambios
+
+``git reset --soft <ID-del-commit>``
+
+**GIT REVERT- Comando no destructivo**
+
+Este comando no descarta cambios sino crea otro commit con los cambios revertidos, no borra ni rgres sino crea una versión con los cabios revertidos del commit
+
+**GIT CHECKOUT.- nos permite recuperar código de los commits**
