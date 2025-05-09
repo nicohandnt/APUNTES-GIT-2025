@@ -305,3 +305,11 @@ Es un estándar manejado en la mayoría de equipos de desarrollo ara resolver co
 Hacer commits a menudo, agrupando pequeñas mejoras, no significa hacer commits sin sentido, hacer buenos commits, que sean claros y con buena semántica. Unos buenos commits no contienen puntos finales ni suspensivos, como máximo 50 caracteres para escribir el commit
 
 También es bueno escribir un buen nombre de rama, preferible si el nombre de la rama es dado por la acción que realiza
+
+**Escribir buenos commits**
+
+- usar el verbo imperativo (Add, change, Fix, Remove)
+- No usar punto final ni puntos suspensivos en tus mensajes
+- usa como maximo 50 caracteres para cada commit
+- Añade todo el contexto requerido del commit
+- usar prefijos para que tus commits sean mas semanticos
