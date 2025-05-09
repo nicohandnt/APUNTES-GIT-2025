@@ -434,3 +434,12 @@ Este comando se utiliza para salir del proceso de bisectado.
 Restablece el estado del repositorio al estado original antes de comenzar el bisectado
 
 ``git bisect reset``
+
+##### COMANDO PARA CAMBIAR EL NOMBRE DE UN COMMIT
+
+``git commit –amend -m <description commit>``
+
+##### COMANDO PARA RECUPERAR UN ARCHIVO CONCRETO DE OTRA RAMA O COMMIT
+
+``git checkout <SHA> <archivo>``
+
