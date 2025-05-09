@@ -389,3 +389,8 @@ Son los que permiten definir una serie de comandos que pueden ser usados en luga
 
 ``git st --> git status``
 
+**Creando mi primer alias**
+
+Para crear tu propio comando debes usar el comando git config y ponerlo de la siguiente manera:
+
+``git config –global alias. [nombre-del-alias] “comando a ejecutar”``
