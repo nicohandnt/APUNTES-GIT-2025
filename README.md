@@ -369,13 +369,23 @@ Solo tienes que crear un archivo nombre-del-hook en la carpeta .git/hooks y ahí
 
 **Post-commit.-** notificar por slack
 
-**Pre-push.-** para ejecutra una batería de tests
+**Pre-push.-** para ejecutra una batería de tests.
 
 **Post-checkout y post merge.-** permite limpiar el directorio de trabajo, tras realizar un checkout o al del limpiar ramas que ya no usaremos
-Hook del lado del servidor
+Hook del lado del servidor.
 
-**Pre-receive.-** para comprobar que los commits que se quieren guerdadr están bien hechos
+**Pre-receive.-** para comprobar que los commits que se quieren guerdadr están bien hechos.
 
-**Update.-** puedes evitar de una formula granular cada actualizacion
+**Update.-** puedes evitar de una formula granular cada actualizacion.
 
-**Post-receive.-** enviar un correo a todos los usuarios del repositorio que se han grbado nuevos cambios en el repositorio remoto 
+**Post-receive.-** enviar un correo a todos los usuarios del repositorio que se han grbado nuevos cambios en el repositorio remoto.
+
+## CLASE 8
+### ¿Qué es un alias?
+
+Son los que permiten definir una serie de comandos que pueden ser usados en lugar de nombres completos
+
+``git co --> git commit``
+
+``git st --> git status``
+
