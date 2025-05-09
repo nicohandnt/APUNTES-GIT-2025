@@ -232,6 +232,7 @@ Para hacer una buena pull request debemos enfocar nuestro código en una sola co
 - Se concreto y claro
 - Comprende el contexto adecuado para arreglar o parchear codigo para que cumpla su cometido
 
+## CLASE 4
 ### Git Flow
 
 **Main .-** contiene el codigo de producción
@@ -294,3 +295,13 @@ siempre salen directamente desde la rama principal.
 resto del equipo y las pruebas automáticas pasan. El equipo entiende que la
 rama principal puede contener código sin terminar detrás de Feature Flags u
 otros mecanismos similares.
+
+## CLASE 5
+
+**Buenas practicas**
+
+Es un estándar manejado en la mayoría de equipos de desarrollo ara resolver conflictos durante su desarrollo
+
+Hacer commits a menudo, agrupando pequeñas mejoras, no significa hacer commits sin sentido, hacer buenos commits, que sean claros y con buena semántica. Unos buenos commits no contienen puntos finales ni suspensivos, como máximo 50 caracteres para escribir el commit
+
+También es bueno escribir un buen nombre de rama, preferible si el nombre de la rama es dado por la acción que realiza
