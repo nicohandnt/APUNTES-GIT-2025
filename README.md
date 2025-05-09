@@ -350,3 +350,11 @@ Y este otro comando regresa al commit pero no elimina los cambios
 Este comando no descarta cambios sino crea otro commit con los cambios revertidos, no borra ni rgres sino crea una versión con los cabios revertidos del commit
 
 **GIT CHECKOUT.- nos permite recuperar código de los commits**
+
+## CLASE 7
+
+### HOOK
+Punto de enganche, con posibilidad de ejecutar una acción o script cada vez que ocurre un evento en determinado Git.
+
+### CREANDO MI PRIMER HOOK
+Solo tienes que crear un archivo nombre-del-hook en la carpeta .git/hooks y ahí poner el código que quieras que se ejecute Puedes usar todo tipo de interpretes de lenguaje de programación como bash, node, Python, perl, etc.
