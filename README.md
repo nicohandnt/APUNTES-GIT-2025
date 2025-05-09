@@ -369,13 +369,77 @@ Solo tienes que crear un archivo nombre-del-hook en la carpeta .git/hooks y ahí
 
 **Post-commit.-** notificar por slack
 
-**Pre-push.-** para ejecutra una batería de tests
+**Pre-push.-** para ejecutra una batería de tests.
 
 **Post-checkout y post merge.-** permite limpiar el directorio de trabajo, tras realizar un checkout o al del limpiar ramas que ya no usaremos
-Hook del lado del servidor
+Hook del lado del servidor.
 
-**Pre-receive.-** para comprobar que los commits que se quieren guerdadr están bien hechos
+**Pre-receive.-** para comprobar que los commits que se quieren guerdadr están bien hechos.
 
-**Update.-** puedes evitar de una formula granular cada actualizacion
+**Update.-** puedes evitar de una formula granular cada actualizacion.
 
-**Post-receive.-** enviar un correo a todos los usuarios del repositorio que se han grbado nuevos cambios en el repositorio remoto 
+**Post-receive.-** enviar un correo a todos los usuarios del repositorio que se han grbado nuevos cambios en el repositorio remoto.
+
+## CLASE 8
+### ¿Qué es un alias?
+
+Son los que permiten definir una serie de comandos que pueden ser usados en lugar de nombres completos
+
+``git co --> git commit``
+
+``git st --> git status``
+
+**Creando mi primer alias**
+
+Para crear tu propio comando debes usar el comando git config y ponerlo de la siguiente manera:
+
+``git config –global alias. [nombre-del-alias] “comando a ejecutar”``
+
+### Trucos de git
+
+##### COMANDO PARA GUARDAR CAMBIOS TEMPORALMENTE
+
+Este comando se utiliza para guardar temporalmente cambios locales en un lugar conocido como "stash"
+
+``git stash``
+
+Este comando guarda los cambios locales, incluidos los archivos no rastreados (que no están bajo seguimiento de Git)
+
+``git stash -u``
+
+Este comando aplica los cambios guardados en el stash al directorio de trabajo y lo elimina del stash
+
+``git stash pop``
+
+Aplicar cambios de commits en especifico
+
+``git Cherry-pick <SHA>``
+##### COMANDO PARA HALLAR COMMIT QUE PRODUJO ERROR
+
+``git bisect``
+
+Este comando indica que empezaremos a buscar el commit que introdujo el error
+
+``git bisect start``
+
+Este comando marca el commit actual como “malo”
+
+``git bisect bad``
+
+Este comando marca el commit actual como “bueno”
+
+``git bisect good``
+
+Este comando se utiliza para salir del proceso de bisectado.
+Restablece el estado del repositorio al estado original antes de comenzar el bisectado
+
+``git bisect reset``
+
+##### COMANDO PARA CAMBIAR EL NOMBRE DE UN COMMIT
+
+``git commit –amend -m <description commit>``
+
+##### COMANDO PARA RECUPERAR UN ARCHIVO CONCRETO DE OTRA RAMA O COMMIT
+
+``git checkout <SHA> <archivo>``
+
