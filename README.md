@@ -410,3 +410,7 @@ Este comando guarda los cambios locales, incluidos los archivos no rastreados (q
 Este comando aplica los cambios guardados en el stash al directorio de trabajo y lo elimina del stash
 
 ``git stash pop``
+
+Aplicar cambios de commits en especifico
+
+``git Cherry-pick <SHA>``
