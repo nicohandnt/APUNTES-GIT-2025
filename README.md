@@ -394,3 +394,19 @@ Son los que permiten definir una serie de comandos que pueden ser usados en luga
 Para crear tu propio comando debes usar el comando git config y ponerlo de la siguiente manera:
 
 ``git config –global alias. [nombre-del-alias] “comando a ejecutar”``
+
+### Trucos de git
+
+##### COMANDO PARA GUARDAR CAMBIOS TEMPORALMENTE
+
+Este comando se utiliza para guardar temporalmente cambios locales en un lugar conocido como "stash"
+
+``git stash``
+
+Este comando guarda los cambios locales, incluidos los archivos no rastreados (que no están bajo seguimiento de Git)
+
+``git stash -u``
+
+Este comando aplica los cambios guardados en el stash al directorio de trabajo y lo elimina del stash
+
+``git stash pop``
