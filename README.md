@@ -345,4 +345,8 @@ Y este otro comando regresa al commit pero no elimina los cambios
 
 ``git reset --soft <ID-del-commit>``
 
+**GIT REVERT- Comando no destructivo**
 
+Este comando no descarta cambios sino crea otro commit con los cambios revertidos, no borra ni rgres sino crea una versión con los cabios revertidos del commit
+
+**GIT CHECKOUT.- nos permite recuperar código de los commits**
